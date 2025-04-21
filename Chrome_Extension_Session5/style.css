@@ -1,0 +1,27 @@
+body {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  padding: 5px;
+  font-size: 14px;
+}
+button {
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+pre {
+  font-size: 12px;
+  background: #f0f0f0;
+  padding: 10px;
+  max-height: 1050px;
+  overflow-y: auto;
+}
+
